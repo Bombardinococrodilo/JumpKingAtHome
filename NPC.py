@@ -120,7 +120,10 @@ class OldMan(NPC):
 
 		self.current_image = self.images["OldManLookStraight"]
 
-		self.quotes = ["""Ola ccorro""",
+		self.quotes = ["""You have heard the legend too?
+						So you're gonna get that babe, right?
+						Go on then, get up there!
+						Heh, heh, heh...""",
 
 						"""You have heard the legen-
 						Hmm?
