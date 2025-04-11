@@ -29,7 +29,7 @@ class Start:
 
 		self.opacity_fadespeed = 15
 
-		self.text = Text("LEGEND HAS IT THERE IS A BABE AT THE TOP...")
+		self.text = Text("LA LEYENDA DICE QUE UNA CHICA SE ENCUENTRA EN LO MÁS ALTO...")
 
 		self.title_logo = Title(self.images)
 

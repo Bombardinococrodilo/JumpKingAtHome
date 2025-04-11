@@ -120,91 +120,92 @@ class OldMan(NPC):
 
 		self.current_image = self.images["OldManLookStraight"]
 
-		self.quotes = ["""You have heard the legend too?
-						So you're gonna get that babe, right?
-						Go on then, get up there!
-						Heh, heh, heh...""",
+		self.quotes = ["""¿Tú también has oído la leyenda?
+						¿Así que vas a conquistar a esa chica, verdad?
+						¡Pues anda, ve y sube ahí!
+						Je, je, je...""",
 
-						"""You have heard the legen-
-						Hmm?
-						What a funny yellow hat!
-						Can I have it?
-						Heh, heh, heh...""",
+						"""—¿Has oído la legen—
+						—¿Hmm?
+						—¡Qué sombrero amarillo tan gracioso!
+						—¿Me lo das?
+						—Je, je, je...""",
 
-						"""She must really be something...
-						A beauty, I'm sure!
-						Heh, heh, heh...""",
+						"""—Debe ser realmente especial...
+						—¡Una belleza, estoy seguro!
+						—Je, je, je...""",
 
-						"""Why did you stop jumping?
-						Go on, get back up there!
-						Heh, heh, heh...""",
+						"""—¿Por qué dejaste de saltar?
+						—¡Anda, vuelve allá arriba!
+						—Je, je, je...""",
 
-						"""I look up from time to time!
-						Soon I will get a glance!
-						Hee, hee, hee...""",
+						"""Miro hacia arriba de vez en cuando.
+						¡Pronto echaré un vistazo!
+						Je, je, je...""",
 
-						"""Your tent is looking pretty comfortable there...
-						Am I right?
-						Heh, heh, heh...""",
+						"""Tu tienda se ve bastante cómoda ahí...
+						¿Me equivoco?
+						Je, je, je...""",
 
-						"""What do you eat, anyway?
-						I prefer the delights of this here bog!
-						Hoh, hoh, hoh...""",
+						"""¿Y tú qué comes, eh?
+						¡Yo prefiero las delicias de este pantano!
+						¡Jo, jo, jo...!""",
 
-						"""...her ... hmm...
-						...mumble ... what? ... eeh...
-						...what then ... eeh ...
-						...in the air ... hmm ...
-						...mumble ... mumble ... oh yes ...
-						...what if ... humn...
-						...eeh ... eat ...
-						...yes of course ... mumble ... eeh ...
-						... hmm ... so high up ...
-						... Where was I ... Ahh yes!""",
+						"""...ella... hmm...
+						...**murmuro... ¿qué? ... eeh...
+						...¿y entonces qué? ... eeh...
+						...en el aire**... hmm...
+						...**murmuro**... **murmuro... oh, sí...
+						...¿y si...? humn...
+						...eeh... comer**...
+						...sí, claro... **murmuro... eeh...
+						...hmm... tan alto allá arriba**...
+						...¿Dónde estaba? ¡Ahh, sí!""",
 
-						"""I caught a fairy the other day!
-						You want a peek?
-						TOO BAD!
-						Heh heh heh...
-						Good day!""",
+						"""¡Atrapé un hada en el bosque el otro día!
+						¿Quieres echar un vistazo?
+						¿No?
+						¡¡QUÉ LÁSTIMA!!
+						Je, je, je...
+						¡Esta bien, que tengas un buen día!""",
 
-						"""I reached the babe once!
-						It must have been her...""",
+						"""¡Una vez llegué hasta donde se encontraba la chica!
+						Debió de ser ella...O... Almenos eso es lo que creo...""",
 
-						"""How do you feel?
-						I'm feeling good!
-						Hee, hee, hee...""",
+						"""¿Cómo te sientes ahora mismo?
+						¡Yo me siento genial ahora que estas aqui!
+						Je, je, je...""",
 
-						"""Oh, I wish that I was young again!
-						Then I would reach the babe in no time!
-						Oh yes...""",
+						"""¡Oh, ojalá volver a ser joven otra vez!
+						¡Entonces asi podria alcanzar a la chica en un abrir y cerrar de ojos!
+						Oh, sí...""",
 
-						"""There is a nice and safe place just above the tree!
-						Heh, heh, heh...""",
+						"""¡Hay un lugar bonito y seguro justo encima del árbol!  
+						Je, je, je...""",
 
-						"""Unlike you, I learned from my mistake!
-						I never tried again!
-						Hee, hee, hee...""",
+						"""A diferencia de ti, ¡yo lamentablemente aprendí de mi error!  
+						¡Nunca mas lo volvi a intentar de nuevo!...  
+						Je, je, je...""",
 
-						"""I still hope to get a glance of her!
-						A man can dream!
-						Hee, hee, hee...""",
+						"""¡Aún tengo el deseo de algun dia poder verla!  
+						¡No hay nada de malo en soñar!...  
+						Je, je, je...""",
 
-						"""I'll give it another go!
-						Right after this nap...""",
+						"""¡Lo intentaré de nuevo lo aseguro!  
+						Justo después de darme una siesta...""",
 
-						"""Why you should continue?
-						Did you forget about the babe already?!
-						Heh, heh, heh...""",
+						"""¿Por qué razon crees que deberías continuar?  
+						¿¡Acaso ya te olvidaste de la chica!?  
+						Je, je, je...""",
 
-						"""You should just give up!
-						No, wait...
-						I believe you will make it!
-						Heh, heh, heh...""",
+						"""¡Deberías aceptarlo y rendirte!
+						No, espera...
+						¡Creo que lo lograrás, Tu puedes!
+						Je, je, je...""",
 
-						"""So I... Borrowed... this potion from a merchant,
-						I think it gave me special powers!
-						Hee, hee, hee...""",
+						"""**Murmura Así que...** tomé prestada... esta poción de un mercader el cual encontre en el bosque,  
+						¡Creo que la pocion me dio poderes especiales!  
+						Je, je, je...""",
 
 						"""That helmet seems to come in handy!
 						Or is it your thick skull that cushions you when you fall?

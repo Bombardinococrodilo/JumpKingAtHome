@@ -757,9 +757,9 @@ class Stat_Menu(Menu):
 
 	def update(self):
 
-		attempt, session = os.environ.get("attempt"), os.environ.get("session")
+		attempt, session = os.environ.get("intento"), os.environ.get("sesión")
 
-		time = int(os.environ.get("time"))
+		time = int(os.environ.get("tiempo"))
 
 		seconds = int(time / 1000 % 60)
 
@@ -767,13 +767,13 @@ class Stat_Menu(Menu):
 
 		hours = int(time / (1000 * 60 * 60) % 24)
 
-		self.buttons[0].text = self.buttons[0].font.render(f"ATTEMPT : {attempt} SESSION : {session}", True, (150, 150, 150))
+		self.buttons[0].text = self.buttons[0].font.render(f"INTENTO : {attempt} SESIÓN : {session}", True, (150, 150, 150))
 
-		self.buttons[1].text = self.buttons[1].font.render(f"TIME : {hours}H {minutes}M {seconds}s", True, (150, 150, 150))
+		self.buttons[1].text = self.buttons[1].font.render(f"TIEMPO : {hours}H {minutes}M {seconds}s", True, (150, 150, 150))
 
-		self.buttons[2].text = self.buttons[2].font.render("JUMPS : %s" % os.environ.get("JUMPS"), True, (150, 150, 150))
+		self.buttons[2].text = self.buttons[2].font.render("SALTOS : %s" % os.environ.get("SALTOS"), True, (150, 150, 150))
 
-		self.buttons[3].text = self.buttons[3].font.render("FALLS : %s" % os.environ.get("FALLS"), True, (150, 150, 150))	
+		self.buttons[3].text = self.buttons[3].font.render("CAIDAS : %s" % os.environ.get("CAIDAS"), True, (150, 150, 150))	
 
 class Blinker_Menu:
 
