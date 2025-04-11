@@ -120,10 +120,9 @@ class OldMan(NPC):
 
 		self.current_image = self.images["OldManLookStraight"]
 
-		self.quotes = ["""You have heard the legend too?
-						So you're gonna get that babe, right?
-						Go on then, get up there!
-						Heh, heh, heh...""",
+		self.quotes = ["""Tú, tamnbién eres un saltador?
+						¿No es un poco raro? 
+				  		No te preocupes, yo también lo soy.""",
 
 						"""You have heard the legen-
 						Hmm?
