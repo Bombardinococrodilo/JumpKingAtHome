@@ -2,6 +2,7 @@
 #   
 # Game Screen
 # 
+# -*- coding: utf-8 -*-
 
 import pygame 
 import sys
